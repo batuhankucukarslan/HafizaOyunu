@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton65"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="buton"
+
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton35"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton35"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton36"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton40"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton65"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton36"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton37"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton35"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton37"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton38"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton36"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton38"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton39"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton37"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton39"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="194dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton38"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton40"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton45"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton41"
+        app:layout_constraintStart_toEndOf="@+id/imageButton35"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton30"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton41"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton46"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton42"
+        app:layout_constraintStart_toEndOf="@+id/imageButton40"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton31"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton42"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton47"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton43"
+        app:layout_constraintStart_toEndOf="@+id/imageButton41"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton32"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton43"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton48"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton44"
+        app:layout_constraintStart_toEndOf="@+id/imageButton42"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton33"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton44"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton43"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton34"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton45"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton50"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton46"
+        app:layout_constraintStart_toEndOf="@+id/imageButton36"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton40"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton46"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton53"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton47"
+        app:layout_constraintStart_toEndOf="@+id/imageButton45"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton41"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton47"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton54"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton48"
+        app:layout_constraintStart_toEndOf="@+id/imageButton46"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton42"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton48"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton57"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton49"
+        app:layout_constraintStart_toEndOf="@+id/imageButton47"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton43"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton49"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton58"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton48"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton44"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton50"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton51"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton53"
+        app:layout_constraintStart_toEndOf="@+id/imageButton37"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton45"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton51"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton52"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton55"
+        app:layout_constraintStart_toEndOf="@+id/imageButton38"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton50"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton52"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="194dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton61"
+        app:layout_constraintStart_toEndOf="@+id/imageButton39"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton51"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton61"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="194dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton62"
+        app:layout_constraintStart_toEndOf="@+id/imageButton52"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton55"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton62"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="194dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton63"
+        app:layout_constraintStart_toEndOf="@+id/imageButton61"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton56"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton63"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="194dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton64"
+        app:layout_constraintStart_toEndOf="@+id/imageButton62"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton59"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton64"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="194dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton63"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton60"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton53"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton55"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton54"
+        app:layout_constraintStart_toEndOf="@+id/imageButton50"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton46"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton55"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton61"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton56"
+        app:layout_constraintStart_toEndOf="@+id/imageButton51"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton53"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton56"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton62"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton59"
+        app:layout_constraintStart_toEndOf="@+id/imageButton55"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton54"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton59"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton63"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton60"
+        app:layout_constraintStart_toEndOf="@+id/imageButton56"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton57"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton60"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton64"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton59"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton58"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton57"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton59"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton58"
+        app:layout_constraintStart_toEndOf="@+id/imageButton54"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton48"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton58"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton57"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton49"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton54"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton56"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton57"
+        app:layout_constraintStart_toEndOf="@+id/imageButton53"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton47"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton40"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton31"
+        app:layout_constraintStart_toEndOf="@+id/imageButton65"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton41"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton32"
+        app:layout_constraintStart_toEndOf="@+id/imageButton30"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton32"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton42"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton33"
+        app:layout_constraintStart_toEndOf="@+id/imageButton31"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton33"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton43"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton34"
+        app:layout_constraintStart_toEndOf="@+id/imageButton32"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_card" />
+
+    <ImageButton
+        android:id="@+id/imageButton34"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="7dp"
+        android:contentDescription="buton"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton44"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton33"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_card" />
+
+    <Button
+        android:id="@+id/btnZorAnasayfa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Anasayfa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEslesmez"
+        android:layout_width="141dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="60dp"
+        android:text="Eşleşme: 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toEndOf="@+id/btnHamlez" />
+
+    <Button
+        android:id="@+id/btnHamlez"
+        android:layout_width="141dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="60dp"
+        android:text="Hamle: 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="Puan: 0"
+        app:layout_constraintEnd_toStartOf="@+id/btnZorAnasayfa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
